@@ -36,6 +36,14 @@ The user pastes a JD, uploads a resume (PDF), and the system evaluates whether t
 ---
 
 ## 📂 Project Structure
+---
+📦 Installation
+Requirements
 
+python ≥ 3.10
+
+pip
+
+git
 
 
