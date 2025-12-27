@@ -37,14 +37,5 @@ The user pastes a JD, uploads a resume (PDF), and the system evaluates whether t
 
 ## 📂 Project Structure
 
----
 
-🧪 How to Use the App
-Paste the Job Description / Required Skills
-Upload a resume PDF
-Click Check Resume Match
-View result:
-GOOD MATCH / NOT A GOOD MATCH
-Matched skills
-Missing skills
 
