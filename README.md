@@ -36,4 +36,21 @@ The user pastes a JD, uploads a resume (PDF), and the system evaluates whether t
 ---
 
 ## 📂 Project Structure
+ATS_Reviewer/
+├── ats_project/
+├── resumes/
+├── matcher/
+│ └── services/
+│ ├── pdf_parser.py
+│ ├── text_cleaner.py
+│ ├── similarity.py
+│ └── skill_matcher.py
+├── templates/
+│ ├── base.html
+│ ├── upload.html
+│ └── result.html
+├── requirements.txt
+├── build.sh
+├── .gitignore
+└── manage.py
 
