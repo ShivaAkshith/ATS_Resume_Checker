@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <div class="card shadow p-4">
+
+            <h4 class="text-center mb-3">ATS Resume Matcher</h4>
+            <p class="text-muted text-center">
+                Paste the Job Description and upload your resume to check if it matches.
+            </p>
+
+            <form method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                <!-- Job Description Input -->
+                <div class="mb-3">
+                    <label class="form-label">Job Description / Required Skills</label>
+                    <textarea
+                        class="form-control"
+                        name="job_text"
+                        rows="6"
+                        placeholder="Example: Python, Django, REST API, SQL, Machine Learning"
+                        required></textarea>
+                </div>
+
+                <!-- Resume Upload -->
+                <div class="mb-3">
+                    <label class="form-label">Upload Resume (PDF)</label>
+                    <input
+                        type="file"
+                        class="form-control"
+                        name="resume"
+                        accept=".pdf"
+                        required>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary w-100">
+                    Check Resume Match
+                </button>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+{% endblock %}

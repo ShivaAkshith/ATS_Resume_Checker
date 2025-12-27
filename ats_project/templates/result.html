@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+
+        <div class="card shadow p-4 mb-4">
+            <h4 class="mb-3">ATS Match Result</h4>
+
+            <p><strong>Job Role:</strong> {{ job.title }}</p>
+
+            <!-- Progress Bar -->
+            <div class="progress mb-3" style="height: 25px;">
+                <div class="progress-bar 
+                    {% if score >= 75 %} bg-success
+                    {% elif score >= 50 %} bg-warning
+                    {% else %} bg-danger {% endif %}"
+                    role="progressbar"
+                    style="width: {{ score }}%;">
+                    {{ score }}%
+                </div>
+            </div>
+
+            {% if score >= 70 %}
+                <p class="text-success">✔ Excellent match, You are Eligible</p>
+            {% elif score >= 50 %}
+                <p class="text-warning">⚠ Decent match, improvement needed</p>
+            {% else %}
+                <p class="text-danger">❌ Does not match the Required Skills</p>
+            {% endif %}
+        </div>
+
+       
+        <div class="text-center mt-4">
+            <a href="/upload/" class="btn btn-outline-primary">
+                Check Another Resume
+            </a>
+        </div>
+
+    </div>
+</div>
+{% endblock %}
