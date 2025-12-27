@@ -36,43 +36,41 @@ The user pastes a JD, uploads a resume (PDF), and the system evaluates whether t
 ---
 
 ## 📂 Project Structure
+## 📁 Project Structure
 
+```text
 ATS_Resume_Checker/
 │
-├── ats_project/                 # Main Django project folder
-│   ├── __init__.py
-│   ├── settings.py              # Django settings
-│   ├── urls.py                  # Project-level URLs
-│   ├── wsgi.py                  # WSGI config for deployment
+├── ats_project/
+│   ├── settings.py
+│   ├── urls.py
+│   ├── wsgi.py
 │   └── asgi.py
 │
-├── resumes/                     # App handling resume uploads
-│   ├── migrations/
-│   ├── models.py                # Resume model
-│   ├── views.py                 # Upload & processing logic
-│   ├── urls.py                  # App URLs
+├── resumes/
+│   ├── models.py
+│   ├── views.py
+│   ├── urls.py
 │   └── admin.py
 │
-├── matcher/                     # ATS matching & NLP logic
-│   ├── services/
-│   │   ├── pdf_parser.py        # Extract text from PDF resumes
-│   │   ├── text_cleaner.py      # Text preprocessing
-│   │   ├── skill_matcher.py     # Skill extraction & matching
-│   │   └── similarity.py        # (Optional) semantic similarity
-│   └── __init__.py
+├── matcher/
+│   └── services/
+│       ├── pdf_parser.py
+│       ├── text_cleaner.py
+│       ├── skill_matcher.py
+│       └── similarity.py
 │
-├── templates/                   # HTML templates
+├── templates/
 │   ├── base.html
-│   ├── upload.html              # JD + Resume upload page
-│   └── result.html              # Match result page
+│   ├── upload.html
+│   └── result.html
 │
-├── static/                      # Static files (CSS, JS if any)
-│
-├── build.sh                     # Render build script
-├── requirements.txt             # Python dependencies
-├── .gitignore                   # Ignored files & folders
-├── README.md                    # Project documentation
-└── manage.py                    # Django management script
+├── build.sh
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── manage.py
+
 
 ---
 📦 Installation
