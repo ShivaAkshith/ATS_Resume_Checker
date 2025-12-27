@@ -1,3 +1,5 @@
+This is a sample ATS resume checker for the new jobs based on their Job Description
+
 # ATS Resume Checker 🧠📄
 
 A Django-based web application that checks whether a **resume is a good match for a given Job Description (JD)**, similar to how an **Applicant Tracking System (ATS)** works.
