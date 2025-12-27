@@ -41,7 +41,9 @@ The user pastes a JD, uploads a resume (PDF), and the system evaluates whether t
 Requirements
 
 python ≥ 3.10
+
 pip
+
 git
 
 
