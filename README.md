@@ -36,6 +36,44 @@ The user pastes a JD, uploads a resume (PDF), and the system evaluates whether t
 ---
 
 ## 📂 Project Structure
+
+ATS_Resume_Checker/
+│
+├── ats_project/                 # Main Django project folder
+│   ├── __init__.py
+│   ├── settings.py              # Django settings
+│   ├── urls.py                  # Project-level URLs
+│   ├── wsgi.py                  # WSGI config for deployment
+│   └── asgi.py
+│
+├── resumes/                     # App handling resume uploads
+│   ├── migrations/
+│   ├── models.py                # Resume model
+│   ├── views.py                 # Upload & processing logic
+│   ├── urls.py                  # App URLs
+│   └── admin.py
+│
+├── matcher/                     # ATS matching & NLP logic
+│   ├── services/
+│   │   ├── pdf_parser.py        # Extract text from PDF resumes
+│   │   ├── text_cleaner.py      # Text preprocessing
+│   │   ├── skill_matcher.py     # Skill extraction & matching
+│   │   └── similarity.py        # (Optional) semantic similarity
+│   └── __init__.py
+│
+├── templates/                   # HTML templates
+│   ├── base.html
+│   ├── upload.html              # JD + Resume upload page
+│   └── result.html              # Match result page
+│
+├── static/                      # Static files (CSS, JS if any)
+│
+├── build.sh                     # Render build script
+├── requirements.txt             # Python dependencies
+├── .gitignore                   # Ignored files & folders
+├── README.md                    # Project documentation
+└── manage.py                    # Django management script
+
 ---
 📦 Installation
 Requirements
