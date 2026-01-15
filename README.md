@@ -94,8 +94,3 @@ ATS_Resume_Checker/
 ├── README.md
 └── manage.py
 '''
-
----
-
-## project
-
