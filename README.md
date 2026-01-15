@@ -86,9 +86,9 @@ ATS_Resume_Checker/
 ## 📸 Screenshots
 
 ### ✅ Upload Page
-![Upload Page](SC/pic1.png)
+![Upload Page](SC/pic1.png.png)
 
 ### ✅ Result Page
-![Result Page](SC/pic2.png)
+![Result Page](SC/pic2.png.png)
 
 
