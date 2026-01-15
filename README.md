@@ -95,5 +95,3 @@ ATS_Resume_Checker/
 └── manage.py
 
 ---
-'''text
-hello
