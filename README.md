@@ -80,5 +80,14 @@ ATS_Resume_Checker/
 ├── build.sh
 ├── requirements.txt
 ├── .gitignore
+
+## 📸 Screenshots
+
+### ✅ Upload Page
+![Upload Page](SC/pic1.png)
+
+### ✅ Result Page
+![Result Page](SC/pic2.png)
+
 ├── README.md
 └── manage.py
