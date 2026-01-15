@@ -28,10 +28,10 @@ The user pastes a JD, uploads a resume (PDF), and the system evaluates whether t
 ## 📸 Screenshots
 
 ### ✅ Upload Page
-![Upload Page](.SC/pic1.png.png)
+![Upload Page](SC/pic1.png.png)
 
 ### ✅ Result Page
-![Result Page](SC/pic2.png.png)
+![Result Page](SC/pic3.png.png)
 
 ---
 
