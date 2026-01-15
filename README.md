@@ -27,11 +27,12 @@ The user pastes a JD, uploads a resume (PDF), and the system evaluates whether t
 
 ## 📸 Screenshots
 
-### ✅ Upload Page
-![Upload Page](SC/pic1.png.png)
 
-### ✅ Result Page
+![Upload Page](SC/pic2.png.png)
 ![Result Page](SC/pic3.png.png)
+![Result Page](SC/pic4.png.png)
+![Result Page](SC/pic5.png.png)
+
 
 ---
 
