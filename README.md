@@ -93,3 +93,12 @@ ATS_Resume_Checker/
 ├── .gitignore
 ├── README.md
 └── manage.py
+'''md
+
+---
+
+## ✅ Usage
+1. Paste JD
+2. Upload Resume
+3. Get Result
+
